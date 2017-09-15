@@ -59,14 +59,24 @@ a.menuitem:hover, a.menuitem:active {
     font-size: 60px;
 }
 
-@media (max-width: 650px) {
-    .title{
+@media (max-width: 800px) {
+    #title{
         font-size: 15px;
+    }
+
+    .post{
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .mainmenu{
+        display: flex;
+        flex-direction: column;
     }
     /*.post{*/
         /*font-size: 8px;*/
     /*}*/
-    
 }
 
 .post{
@@ -133,7 +143,6 @@ a.menuitem:hover, a.menuitem:active {
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
-    font-size: 20px;
 }
 
 .post-title{
