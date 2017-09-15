@@ -41,6 +41,20 @@ a.menuitem:hover, a.menuitem:active {
 
 }
 
+a.scroller:link, a.scroller:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a.scroller:hover, a.scroller:active {
+    background-color: red;
+}
+
 #menuwrapper{
     margin-top: 10px;
     width: 100%;
@@ -94,6 +108,7 @@ a.menuitem:hover, a.menuitem:active {
 }
 
 .post:first-child{
+    margin-top: 50px;
     border-color: blue;
 }
 
@@ -149,3 +164,4 @@ a.menuitem:hover, a.menuitem:active {
     margin-top: 10px;
      margin-bottom: 10px;
 }
+
